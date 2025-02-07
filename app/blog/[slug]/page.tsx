@@ -6,7 +6,7 @@ type Params = {
 //
 
 export async function generateMetadata({ params }: any) {
-  return { title: `Post: ${params.slug}` };
+  return { title: `Post: ${params.slug}` }
 }
 
 export default async function Page({ params }: any) {
