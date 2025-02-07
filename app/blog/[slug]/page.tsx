@@ -3,6 +3,7 @@ type Params = {
     slug: string
   };
 };
+//
 
 export async function generateMetadata({ params }: any) {
   return { title: `Post: ${params.slug}` };
